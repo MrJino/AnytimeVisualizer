@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_blue">#0099cc</color>
+    <color name="theme_white_bg">#30ffffff</color>
+    <color name="nowplaying_title_normal">#ffffff</color>
+    <color name="nowplaying_title_playing">#4684e8</color>
+    <color name="theme_button_select">#4684e8</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="playback_menuButton_text">#ffffff</color>
+    <color name="playback_menuButton_background">#2196F3</color>
+
+    <color name="library_fragment_main_background">#e8e8e8</color>
+    <color name="library_adapter_list_background_nor">#00000000</color>
+    <color name="library_adapter_list_background_sel">#d4d4d4</color>
+    <color name="library_adapter_list_separator">#b8b8b8</color>
+    <color name="library_adapter_list_text">#000000</color>
+    <color name="library_adapter_list_text_sub">#777777</color>
+
+    <color name="application_background">#151515</color>
+    <color name="expand_topMenu_background">#151515</color>
+    <color name="expand_list_separator">#202020</color>
+    <color name="expand_list_text_nor">#b8b8b8</color>
+    <color name="expand_list_text_sel">#abad36</color>
+    <color name="expand_player_channel_text">#abad36</color>
+    <color name="expand_player_title_text">#abad36</color>
+    <color name="expand_player_artist_text">#cccccc</color>
+    <color name="expand_player_background">#151515</color>
+    <color name="expand_miniPlayer_timeText">#151515</color>
+    <color name="expand_miniPlayer_progressBG">#7F151515</color>
+    <color name="expand_miniPlayer_progressBar">#abad36</color>
+    <color name="expand_list_adapter_text_nor">#2a2a2a</color>
+    <color name="expand_list_adapter_text_sel">#abad36</color>
+    <color name="expand_list_adapter_background_nor">#e8e8e8</color>
+    <color name="expand_list_adapter_background_sel">#d4d4d4</color>
+    <color name="expand_list_adapter_art_sel">#75000000</color>
+    <color name="expand_list_adapter_art_nor">#00000000</color>
+    <color name="expand_list_adapter_separator">#b8b8b8</color>
+</resources>

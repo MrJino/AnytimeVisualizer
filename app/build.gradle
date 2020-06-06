@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.0"
+
+    defaultConfig {
+        applicationId "noh.jinil.app.anytime"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 301
+        versionName "3.0.1"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(store_file)
+            storePassword store_password
+            keyAlias key_alias
+            keyPassword key_password
+        }
+
+        debug {
+            storeFile file(store_file)
+            storePassword store_password
+            keyAlias key_alias
+            keyPassword key_password
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable = false;
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+        debug {
+            debuggable = true;
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(path: ':colorPicker')
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+}

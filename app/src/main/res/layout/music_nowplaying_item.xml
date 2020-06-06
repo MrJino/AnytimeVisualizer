@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dip"
+    android:layout_marginTop="2dip"
+    android:layout_marginBottom="2dip">
+    <TextView 
+        android:id="@+id/nowplaying_track_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:singleLine="true"/>
+    <TextView 
+        android:id="@+id/nowplaying_track_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#a0ffffff"
+        android:singleLine="true"/>
+</LinearLayout>

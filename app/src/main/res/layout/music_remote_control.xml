@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <ImageButton
+		android:id="@+id/remote_control_prev"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:src="@drawable/music_button_prev"
+		android:background="#00000000"  />
+    <LinearLayout 
+        android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1" 
+		android:background="#00000000"/>
+    <ImageButton
+		android:id="@+id/remote_control_pauseresume"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:src="@drawable/music_button_play"
+		android:background="#00000000"  />
+    <LinearLayout 
+        android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1" 
+		android:background="#00000000"/>
+    <ImageButton
+		android:id="@+id/remote_control_next"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:src="@drawable/music_button_next"
+		android:background="#00000000"  />
+</LinearLayout>

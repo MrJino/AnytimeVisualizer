@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <!-- 
+    <Button 
+	    android:id="@+id/music_button_playall"
+	    android:layout_width="wrap_content"
+	    android:layout_height="25dip"
+	    android:layout_margin="8dip"
+	    android:padding="0dip"
+	    android:textSize="12sp"
+	    android:textColor="@android:color/white"
+	    android:background="#222222"
+	    android:text="@string/music_playall"/>
+	-->
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="#00000000" />
+    <!-- 
+    <ImageButton 
+	    android:id="@+id/music_button_playall"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:src="@drawable/music_dj_nor"
+	    android:background="#00000000"
+	    android:contentDescription="@string/music_button_playall"/>
+	 -->
+	 <ImageButton 
+	    android:id="@+id/music_button_eq"
+	    android:layout_width="40dip"
+	    android:layout_height="40dip"
+	    android:src="@drawable/music_button_eq"
+	    android:background="#00000000"
+	    android:contentDescription="@string/music_folder_title" />
+</LinearLayout>

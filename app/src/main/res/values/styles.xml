@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="setting_info_text">
+		<item name="android:textSize">12sp</item>
+		<item name="android:textColor">#ffffff</item>		
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	<!-- The rest of your attributes -->
+	</style>
+</resources>

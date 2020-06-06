@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="10dip"
+    android:orientation="horizontal"
+	tools:ignore="ContentDescription"
+	android:gravity="center_vertical">
+
+	<ImageButton
+		android:id="@+id/music_button_visualizerSettings"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:background="#00000000"
+		android:src="@drawable/noti_visualizer" />
+
+	<FrameLayout
+		android:layout_width="0dip"
+		android:layout_height="40dip"
+		android:layout_weight="1"/>
+
+	<ImageButton
+		android:id="@+id/music_button_nowPlaying"
+		android:layout_width="40dip"
+		android:layout_height="40dip"
+		android:src="@drawable/music_button_nowplaying"
+		android:background="#00000000"  />
+
+</LinearLayout>

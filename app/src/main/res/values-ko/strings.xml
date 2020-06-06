@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">애니타임 Visualizer</string>
+    <string name="app_title">애니타임 Visualizer</string>
+    <string name="unknown">Unknown</string>
+	<string name="notification_subtitle">눈으로 음악을 즐겨 보세요</string>
+	<string name="notification_help_guide">On/Off 버튼</string>
+	<string name="button_showcontrol">컨트롤</string>
+	<string name="playback_failed">재생에 실패하였습니다.</string>
+	<string name="emptyplaylist">빈 리스트</string>
+	<string name="tap_to_play">여기를 탭해서 재생을 시작해 보세요</string>
+	<string name="anotherapp_is_playing">다른 App에서 음악이 재생중입니다.</string>
+	<string name="visualizer_on">On</string>
+	<string name="visualizer_off">Off</string>
+	<string name="visualizer_setting_leftani">애니메이션</string>
+	<string name="visualizer_setting_rightani">애니메이션</string>
+	<string-array name="category_array">
+        <item>뮤직 플레이어</item>        
+        <item>환경설정</item>
+        <item>도움말/정보</item>
+    </string-array>
+    <string name="timer">타이머</string>
+    <string name="checklist">체크리스트</string>
+    <string name="settings">세팅</string>
+    <string name="tab_to_pick">선택</string>
+	
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="action_delete_song">음악삭제</string>
+    <string name="action_toggle_visualizer">Visualizer전환</string>
+    
+    <string name="popup_delete_ask">현재 재생 중인 곡을 완전히 삭제하시겠습니까?</string>
+    
+    <string name="music_folder_title">폴더</string>
+    <string name="music_folder_addtonowplay">재생목록에 추가중입니다.</string>
+    <string name="music_nowplaying_title">현재재생곡</string>
+    <string name="music_adding_tonowplay">목록구성중</string>
+    <string name="music_button_add">선택추가</string>
+    <string name="music_button_reset">비우기</string>
+    <string name="music_button_hahaha">^^</string>
+    <string name="music_button_playall">전체재생</string>
+    <string name="music_button_search">검색</string>
+    
+    <string name="nosong_to_add">추가할 음악이 없습니다.</string>
+    <string name="under_development">구현중입니다 ^^;</string>
+    
+    <string name="help_developer_title">* 개발자</string>
+    <string name="help_developer_info">이메일: for1self@gmail.com\n사는곳: 대한민국, 서울\n문의사항 있으면 메일로 언제든지 연락주세요</string>
+    <string name="help_version_title">* 현재버전</string>
+
+    <string name="help_update_info271">[v2.7.1]\n1. Support Russian by Валерий Бутнев and Turkish by Halil Kasap</string>
+    <string name="help_update_info270">[v2.7.0]\n1. 마이크 입력 데이타 사용 기능 추가 for Валерий Бутнев</string>
+    <string name="help_update_info263">[v2.6.3]\n1. 강제로 Global Visualizer로 바꿀수 있는 메뉴 추가 for T.M. Wrath</string>
+    <string name="help_update_info261">[v2.6.1]\n1. 노티 숨기기 옵션 추가 for Hamad Alzaabi\n2. 노티 영역에 재생곡 정보표시 for Alex Haist\n3. 사용자 색상변경시 Gradient효과 추가 for Hamad Alzaabi</string>
+    <string name="help_update_info260">[v2.6.0]\n1. 기본 Equalizer연동 기능 추가 </string>
+    <string name="help_update_info252">[v2.5.2]\n1. Visualizer 색깔 사용자 정의 추가 for John Trieu</string>
+    <string name="help_update_info251">[v2.5.1]\n1. 떠다니는  Visualizer On/Off 버튼 추가 for Валерий Бутнев</string>
+    <string name="help_update_info250">[v2.5.0]\n1. 다른 미디어 App을 제어할수 있는 기능 추가(시스템버전 4.4.2 이상에서만 사용가능) for Marcus Kriflik</string>
+    <string name="help_update_info240">[v2.4.0]\n1. 확장된 전체화면 모드 추가</string>
+    <string name="help_update_info230">[v2.3.0]\n1. Visualizer 설정 세분화 작업\n2. 가로모드에서 fullscreen 모드 추가</string>
+    <string name="help_update_info220">[v2.2.0]\n1. Visualizer 색깔, 투명도 설정 추가\n2. Global Visualizer세팅이 동작안하는 경우 session id로 세팅하도록 예외처리</string>
+    <string name="help_update_info210">[v2.1.0]\n1. 폴더 리스트 추가</string>
+    <string name="help_update_info201">[v2.0.1]\n1. 현재재생곡 추가\n2. 셔플, 재생모드 설정기능 추가\n3. 가로모드 UI변경 </string>
+           							
+    <string name="help_thankto_title0">* Thanks to everyone</string>
+	<string name="help_thankto_translation">You can contribute to translate this app into your language.\nPlease, let me know by email, if you are willing to help me.\n1. Russian by Валерий Бутнев\n2. Turkish by Halil Kasap</string>
+    <string name="help_thankto_title1">* Thanks to icons8 team and Polina</string>
+    <string name="help_thankto_freeimage">for free PNG image (www.icons8.com)  </string>
+    <string name="help_thankto_title2">* Thanks to Roman Nurik</string>
+    <string name="help_thankto_github">for useful code\n\"https://github.com/romannurik/Android-SwipeToDismiss/tree/master/src/com/example/android/swipedismiss\"</string>
+    <string name="help_thankto_title3">* Thanks to Marcus Kriflik</string>
+    <string name="help_thankto_screenshot">for allowing me to use the picture in the play store\nfor making a awesome video</string>
+    <string name="help_thankto_title4">* Thanks to T.M. Wrath</string>
+    <string name="help_thankto_icon">for allowing me to use the app icon</string>
+    <string name="help_thankto_title5">* Thanks to everyone</string>
+    <string name="help_thankto_suggestion">for giving me great suggestion</string>
+        
+    <string name="noti_local_visualizer_setting">공용 Visualizer가 동작하지 않아 session ID를 이용한 visualzier로 전환합니다.</string>
+    <string name="noti_global_visualizer_setting">session ID를 이용한 visualzier가 동작하지 않아 공용 Visualizer로 전환합니다.</string>
+    
+    <string name="noti_local_visualizer_setting2">session ID를 이용한 visualzier로 전환합니다.</string>
+    <string name="noti_global_visualizer_setting2">공용 Visualizer로 전환합니다.</string>
+    
+    <string name="music_color_setting_info">색상을 선택하려면 원 안을 선택해주세요.</string>
+    
+    <string name="music_popup_ask_autolist_title">현재재생목록 구성</string>
+    <string name="music_popup_ask_autolist_content">현재재생 목록이 존재 하지 않습니다. 곡을 자동으로 추가 할까요?</string>
+    
+  	<string name="music_popup_visualizer_show_title">Visualizer 표시</string>
+  	<string name="music_popup_visualizer_show_content">화면하단에 Visualizer가 보여지도록 하시겠습니까?</string>  	
+  	<string name="music_popup_do_not_show_again">다시 보지 않기</string>
+  	<string name="yes">예</string>
+  	<string name="no">아니오</string>
+  	<string name="select">선택</string>
+  	<string name="confirm">확인</string>
+  	<string name="cancel">취소</string>
+  	<string name="rainbow">Rainbow</string>
+  	<string name="gray">Gray</string>
+  	
+  	<string name="setting_vi_screen_title">* Visualizer</string>
+  	<string name="setting_vi_screen_onoff">화면하단에 Visualizer가 보여지도록 하시겠습니까?</string>
+  	<string name="setting_vi_screen_stick">Visualizer위에 stick이 보여지도록 하시겠습니까?</string>
+  	<string name="setting_vi_screen_battery_noti">업데이트 영역이 클수록 밧데리 소모가 많이 됩니다.</string>
+  	<string name="setting_vi_floating_onoff">On/Off 버튼을 추가하시겠습니까?</string>
+
+    <string name="setting_mic_sensitivity">민감도</string>
+    <string name="noti_use_mic">마이크 입력 사용중</string>
+  	
+  	<string name="setting_extra_title">* 번외기능</string>
+  	<string name="setting_rc_content">다른 미디어 App을 제어하시겠습니까?</string>
+    <string name="setting_usemic">마이크 입력을 사용하시겠습니까?</string>
+  	<string name="toast_rc_noti_preplay">컨트롤하고자 하는 앱을 먼저 실행후 다시 시도해 주세요.</string>
+  	<string name="toast_nocontent_toplay">재생목록에 추가할 곡이 없습니다.</string>
+  	<string name="toast_not_available_eq">기기에서 이퀄라이저를 지원하지 않습니다.</string>
+  	<string name="remotecontrol_title1">App으로 연결</string>
+  	<string name="remotecontrol_title2">설정에서 연결할 App을 선택해 주세요</string>
+  	<string name="remotecontrol_title3">안드로이드 버전 4.4.x 에서만 사용이 가능합니다.</string>
+  	<string name="rc_unable_to_run">App을 실행할 수 없습니다.</string>
+  	
+  	<string name="setting_screen_title">* 스크린</string>
+  	<string name="setting_screen_backlight">화면을 항상 켜지도록 하시겠습니까?</string>
+  	
+  	<string name="setting_noti_title">* 노티영역</string>
+  	<string name="setting_noti_hide">노티영역 정보를 숨기시겠습니까?</string>
+  	
+  	<string name="music_background">배경</string>
+  	<string name="music_albumart_size">앨범크기</string>
+  	
+  	<string name="visualizer_setting_width">가로폭</string>
+  	<string name="visualizer_setting_height">높이</string>
+  	<string name="visualizer_setting_barsize">바크기</string>
+  	<string name="visualizer_setting_alpha">투명도</string>
+  	<string name="visualizer_setting_color">색깔</string>
+  	<string name="visualizer_setting_gravity">위치</string>
+  	
+  	<string name="visualizer_select_gravity">위치를 선택해주세요</string>
+  	<string name="visualizer_color_title">Visualizer 색깔</string>
+  	<string name="color_load_button">색깔 가져오기</string>
+  	
+  	<string name="setting_rc_select_app">여기를 눌러 연결할 앱을 선택해 주세요.</string>  	  	
+  	<string name="music_popup_remote_app_content">우선, 연동앱을 실행후 재생하여야 컨트롤이 가능합니다.\n\n연동앱으로 이동하시겠습니까?</string>
+  	
+  	<string-array name="gravity_array">
+  	    <item>가운데</item>
+        <item>왼쪽</item>
+        <item>오른쪽</item>
+    </string-array>
+    
+  	<string-array name="visualizer_colorset">
+  	    <item>무지개1</item>
+  	    <item>무지개2</item>        
+        <item>하늘색</item>
+        <item>보라색</item>
+        <item>초록색</item>
+        <item>주황색</item>
+        <item>빨간색</item>
+        <item>흑백</item>
+        <item>사용자 정의</item>
+    </string-array>
+    <string name="color_position_both">모두</string>
+    <string name="color_position_down">아래</string>
+    <string name="color_position_up">위</string>
+    <string name="remotecontrol_not_support">Sorry, your device might not support remotecontrol feature.</string>
+
+    <string name="music_library_tab_title_track">트랙</string>
+    <string name="music_library_tab_title_album">앨범</string>
+    <string name="music_library_tab_title_artist">음악가</string>
+    <string name="music_library_tab_title_folder">폴더</string>
+
+    <string name="music_playback_menuButton_toList">리스트로 이동</string>
+
+    <string name="music_playback_menuButton_settings">설정</string>
+    <string name="music_playback_menuButton_nowPlaying">현재재생목록</string>
+
+    <string name="nowPlaying_noContent_text">현재 재생중인 음악이 없습니다.</string>
+</resources>

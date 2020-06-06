@@ -1,0 +1,2 @@
+include ':app', ':colorPicker'
+project(':colorPicker').projectDir = new File('colorPickerView')

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nowplaying_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0000000"
+    android:layout_marginLeft="3dip"
+    android:layout_marginStart="3dip"
+    android:layout_marginRight="3dip"
+    android:layout_marginEnd="3dip"
+    android:orientation="vertical"
+    android:clickable="true">
+    <TextView 
+        android:id="@+id/nowplaying_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:layout_marginLeft="3dip"
+        android:layout_marginStart="3dip"
+        android:text="@string/music_nowplaying_title"
+        android:textColor="#ffffff"
+        android:singleLine="true"/>
+    <ListView
+        android:id="@+id/nowplaying_listview"
+        android:layout_width="match_parent"
+    	android:layout_height="0dip"
+    	android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="3dip"
+    	android:background="#4684e8"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/music_layout_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+	tools:ignore="ContentDescription">
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_weight="1"
+		android:layout_height="0dip">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<include
+				android:id="@+id/music_layout_midButtons"
+				layout="@layout/music_buttons_mid"
+				android:layout_width="match_parent"
+				android:layout_height="40dip"/>
+			<include
+				android:id="@+id/music_layout_playback"
+				layout="@layout/music_s_playback"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+		</LinearLayout>
+		<FrameLayout
+			android:id="@+id/fragment_playback_popup_layout"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+	</FrameLayout>
+	<include
+		android:id="@+id/music_layout_menuButtons"
+		layout="@layout/music_buttons_menu"
+		android:layout_width="match_parent"
+		android:layout_height="40dip"/>
+	<include
+		android:id="@+id/music_layout_seek"
+		layout="@layout/music_buttons_seek"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<include
+		android:id="@+id/music_layout_visualizer"
+		layout="@layout/music_s_visualizer"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/fragment_visualizer_height"
+		android:layout_marginLeft="3dip"
+		android:layout_marginRight="3dip" />
+</LinearLayout>

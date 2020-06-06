@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/expand_list_adapter_background_nor">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_list_recyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/fragment_list_noContentText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textColor="#7f7f7f"
+        android:text="@string/nowPlaying_noContent_text"
+        android:visibility="gone"/>
+
+</FrameLayout>

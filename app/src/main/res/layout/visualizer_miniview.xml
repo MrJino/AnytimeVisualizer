@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/visualizer_mini_layout">
+    <!--         
+   	<com.rslearning.app.visualizer.gif.GIFView 
+   	    android:id="@+id/gif_mini_view"
+   	    android:layout_alignParentRight="true"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_width="30dip" 
+   	    android:layout_height="40dip"/>
+   	-->
+   	<noh.jinil.app.anytime.visualizer.VisualizerMiniView 
+   	    android:id="@+id/visualizer_mini_view"
+   	    android:layout_width="match_parent" 
+   	    android:layout_height="match_parent"/>
+</RelativeLayout>

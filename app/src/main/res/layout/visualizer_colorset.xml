@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dip">
+    <SeekBar 
+        android:id="@+id/visualizer_dynamic_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout 
+        android:id="@+id/visualizer_dynamic_colorset"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_margin="10dip"
+        android:orientation="horizontal"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:orientation="horizontal">
+        <RadioGroup 
+            android:layout_width="wrap_content"
+        	android:layout_height="40dip"
+        	android:orientation="horizontal">
+        	<RadioButton 
+        	    android:id="@+id/radio_barpos_both"
+        	    android:layout_width="wrap_content"
+        		android:layout_height="40dip"
+        		android:text="@string/color_position_both" />
+        	<RadioButton 
+        	    android:id="@+id/radio_barpos_up"
+        	    android:layout_width="wrap_content"
+        		android:layout_height="40dip"
+        		android:text="@string/color_position_up" />
+            <RadioButton 
+                android:id="@+id/radio_barpos_down"
+        	    android:layout_width="wrap_content"
+        		android:layout_height="40dip"
+        		android:text="@string/color_position_down" />
+        </RadioGroup>
+        <Button 
+	        android:id="@+id/visualizer_colorset_colorload"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dip"
+	        android:text="@string/color_load_button"/>
+    </LinearLayout>
+    
+     <afzkl.development.colorpickerview.view.ColorPickerView
+         android:id="@id/color_picker_view"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dip">        
+        <Button 
+            android:id="@+id/visualizer_colorset_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/cancel"/>
+        <Button 
+            android:id="@+id/visualizer_colorset_confirm"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/confirm"/>
+    </LinearLayout>
+</LinearLayout>
