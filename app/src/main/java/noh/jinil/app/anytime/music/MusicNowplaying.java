@@ -8,8 +8,7 @@ import noh.jinil.app.anytime.music.item.TrackItem;
 import noh.jinil.app.anytime.utils.ArrayUtils;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
-import android.util.Log;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +21,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.fragment.app.DialogFragment;
 
 public class MusicNowplaying extends DialogFragment {
 	private static final String TAG = "Nowplaying";

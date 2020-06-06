@@ -2,8 +2,9 @@ package noh.jinil.app.anytime.queue;
 
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v7.widget.RecyclerView;
+import androidx.core.view.MotionEventCompat;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;

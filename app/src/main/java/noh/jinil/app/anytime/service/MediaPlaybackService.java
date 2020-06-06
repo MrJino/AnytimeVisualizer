@@ -1295,7 +1295,7 @@ public class MediaPlaybackService extends Service {
 
         Cursor c = getContentResolver().query(
                 MediaStore.Audio.Media.EXTERNAL_CONTENT_URI,
-                mCursorCols, "_id=" + id , null, null);
+                mCursorCols, MediaStore.Audio.Media._ID +"=" + id , null, null);
         if (c != null) {
             c.moveToFirst();
         }

@@ -4,12 +4,13 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.provider.MediaStore;
-import android.support.v4.content.CursorLoader;
+
+import androidx.loader.content.CursorLoader;
 
 import noh.jinil.app.anytime.library.LibraryPageInfo;
 import noh.jinil.app.anytime.utils.FileUtils;
 
-public class CustomCursorLoader extends CursorLoader{
+public class CustomCursorLoader extends CursorLoader {
     public static final String FOLDER_COLUMNS_PATH = "path";
     public static final String FOLDER_COLUMNS_COUNT = "item_count";
 
